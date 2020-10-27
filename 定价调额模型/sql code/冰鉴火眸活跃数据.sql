@@ -1,7 +1,7 @@
 drop table if exists default.szy_djte_dz_model_user_list_bj_hm;
 create table default.szy_djte_dz_model_user_list_bj_hm as 
 select aa.uid
-      ,bb.bj_hm_score 
+      -- ,bb.bj_hm_score 
       ,bb.bj_top7d 
       ,bb.bj_property7d 
       ,bb.bj_tools7d 
